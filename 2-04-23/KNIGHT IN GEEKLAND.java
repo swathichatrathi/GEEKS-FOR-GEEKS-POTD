@@ -1,4 +1,4 @@
-# Knight is at (start_x,start_y) in Geekland which is represented by an NxM 2D matrix.
+/* Knight is at (start_x,start_y) in Geekland which is represented by an NxM 2D matrix.
 # Each cell in the matrix contains some points. In the ith step, the knight can collect all the points from all the cells that can be visited in exactly i steps without revisiting any cell.
 # Also, the knight has some magical powers that enable him to fetch coins from the future i.e. If the knight can collect y coins in the xth step he can fetch all the coins that he will collect in the (x + y)th step and if the knight can collect z coins in the yth step he can fetch all the coins that he will collect in the (y + z)th step and so on without increasing the step count i.e. knight will stay on xth step and will get all the coins of the future steps mentioned above((x + y)th step coins + (y+z)th steps + ...).
 # Find the minimum number of steps required to collect the maximum points.
@@ -60,7 +60,7 @@
 #   0 <= values in arr <=100
 
 
-# SOLUTION
+# SOLUTION */
 
 class Solution{
     int[] moves_x = {-2, -2, -1, -1, 1, 1, 2, 2};
